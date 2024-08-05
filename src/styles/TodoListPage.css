@@ -1,0 +1,122 @@
+.app {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+  }
+  
+  .app h1 {
+    font-family: 'Borel';
+    text-align: center;
+    background-color: #283618;
+    color: white;
+    font-size: 4rem;
+    padding: 4rem 0 1rem;
+  }
+  
+  .add-form {
+    background-color: #dda15e;
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+  }
+  
+  .error-message{
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .add-form h3 {
+    margin-right: 2rem;
+    font-size: 2rem;
+  }
+  
+  .add-form div {
+    margin: 1rem 0;
+  }
+  
+  .add-form div select {
+    margin-right: 1rem;
+  }
+  
+  button,
+  select,
+  input {
+    background-color: #fefae0;
+    font-family: inherit;
+    border: none;
+    border-radius: 3rem;
+    padding: 1.2rem 3.2rem;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  .add-form select{
+    padding: 0.8rem 2.4rem;
+  }
+
+  .add-form input{
+    padding: 0.8rem 2.4rem;
+    color: black;
+  }
+  .add-form button,
+  .actions button {
+    background-color: #283618;
+    color: #fefae0;
+    font-weight: bold;
+    padding: 0.8rem 2.4rem;
+  }
+  
+  .list {
+    background-color: yellow;
+    color: #fefae0;
+    padding: 2.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .list ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -1rem;
+  }
+  
+  .list li {
+    width: 100%;
+    color: #283618;
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 3rem;
+  }
+
+  .list li .delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.4rem;
+    padding: 0;
+    background-color: red;
+    margin-left: 1rem;
+  }
+
+  .list li .update {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.4rem;
+    padding: 0;
+    background-color: green;
+    margin-left: 1rem;
+  }
