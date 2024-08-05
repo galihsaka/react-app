@@ -120,3 +120,14 @@
     background-color: green;
     margin-left: 1rem;
   }
+
+  .list li .updateName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.4rem;
+    padding: 0;
+    background-color: blue;
+    margin-left: 1rem;
+  }
